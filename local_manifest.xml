@@ -4,8 +4,11 @@
     <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
     <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
+    <remote name="evp-gh" fetch="https://github.com/Xiaomi-MT6833" />
+    <remote name="evp-gl" fetch="https://gitlab.com/Xiaomi-MT6833" />
+    
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los-gh" revision="lineage-20" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="evp-gh" revision="thirteen" />
 </manifest>
