@@ -9,7 +9,7 @@
     <remote name="los-gh" fetch="https://github.com/LineageOS" />
     <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     <remote name="org-evp" fetch="https://github.com/MTK-DM-810-UNIFIED" />
-    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="cherish-temp"/>
+    <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
     <remove-project name="platform/system/bpf" />
